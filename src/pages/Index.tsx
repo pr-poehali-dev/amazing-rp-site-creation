@@ -117,9 +117,9 @@ export default function Index() {
             Как начать играть
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-8">
             {[
-              { icon: 'Download', title: 'Скачай клиент', desc: 'Установи GTA V и клиент FiveM' },
+              { icon: 'Download', title: 'Скачай клиент', desc: 'Установи архив, создай папку в любом месте, зайди в "crmp" и введи 185.189.255.97:2657' },
               { icon: 'UserPlus', title: 'Регистрация', desc: 'Создай аккаунт на нашем сайте' },
               { icon: 'Settings', title: 'Настрой персонажа', desc: 'Выбери внешность и историю' },
               { icon: 'Play', title: 'Начни игру', desc: 'Заходи на сервер и играй!' }
@@ -136,6 +136,17 @@ export default function Index() {
                 </CardContent>
               </Card>
             ))}
+          </div>
+          
+          <div className="flex justify-center">
+            <Button 
+              size="lg" 
+              className="bg-gradient-to-r from-primary to-accent hover:opacity-90"
+              onClick={() => window.open('https://drive.google.com/file/d/1C_Y_ZdS3SICR4V_1bK6qQNl-VHOn6gZg/view?usp=sharing', '_blank')}
+            >
+              <Icon name="Download" size={20} className="mr-2" />
+              Скачать архив
+            </Button>
           </div>
         </div>
       </section>
