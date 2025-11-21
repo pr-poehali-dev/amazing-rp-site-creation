@@ -229,17 +229,17 @@ export default function Index() {
               <CardContent className="pt-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Icon name="Shield" size={24} className="text-white" />
+                    <Icon name="Award" size={24} className="text-white" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-heading font-semibold mb-2">Модератор</h3>
+                    <h3 className="text-2xl font-heading font-semibold mb-2">Руководство проекта</h3>
                     <p className="text-muted-foreground mb-4">
-                      Следи за соблюдением правил, помогай игрокам и поддерживай порядок на сервере
+                      Руководи проектом, делай по своему.
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4">
-                      <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">18+ лет</span>
-                      <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">4+ часа в день</span>
-                      <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">Опыт RP</span>
+                      <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">16+ лет</span>
+                      <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">5+ часов в день</span>
+                      <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">Знать все правила</span>
                     </div>
                     <Button className="w-full bg-gradient-to-r from-primary to-accent hover:opacity-90">
                       Подать заявку
