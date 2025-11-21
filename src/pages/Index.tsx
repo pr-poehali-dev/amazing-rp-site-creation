@@ -241,7 +241,10 @@ export default function Index() {
                       <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">5+ часов в день</span>
                       <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">Знать все правила</span>
                     </div>
-                    <Button className="w-full bg-gradient-to-r from-primary to-accent hover:opacity-90">
+                    <Button 
+                      className="w-full bg-gradient-to-r from-primary to-accent hover:opacity-90"
+                      onClick={() => window.open('https://t.me/bot_gta', '_blank')}
+                    >
                       Подать заявку
                     </Button>
                   </div>
@@ -265,7 +268,10 @@ export default function Index() {
                       <span className="px-3 py-1 bg-secondary/20 text-secondary text-sm rounded-full">6+ часов в день</span>
                       <span className="px-3 py-1 bg-secondary/20 text-secondary text-sm rounded-full">Опыт админа</span>
                     </div>
-                    <Button className="w-full bg-gradient-to-r from-secondary to-accent hover:opacity-90">
+                    <Button 
+                      className="w-full bg-gradient-to-r from-secondary to-accent hover:opacity-90"
+                      onClick={() => window.open('https://t.me/bot_gta', '_blank')}
+                    >
                       Подать заявку
                     </Button>
                   </div>
@@ -289,7 +295,10 @@ export default function Index() {
                       <span className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">Photoshop/Figma</span>
                       <span className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">Креативность</span>
                     </div>
-                    <Button className="w-full bg-gradient-to-r from-accent to-primary hover:opacity-90">
+                    <Button 
+                      className="w-full bg-gradient-to-r from-accent to-primary hover:opacity-90"
+                      onClick={() => window.open('https://t.me/bot_gta', '_blank')}
+                    >
                       Подать заявку
                     </Button>
                   </div>
@@ -313,7 +322,10 @@ export default function Index() {
                       <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">FiveM опыт</span>
                       <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">Git</span>
                     </div>
-                    <Button className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90">
+                    <Button 
+                      className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90"
+                      onClick={() => window.open('https://t.me/bot_gta', '_blank')}
+                    >
                       Подать заявку
                     </Button>
                   </div>
