@@ -22,7 +22,7 @@ export default function Index() {
               <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
                 <Icon name="Gamepad2" size={24} className="text-white" />
               </div>
-              <span className="text-xl font-heading font-bold">Amazing RP</span>
+              <span className="text-xl font-heading font-bold">PREMIUM BONUS</span>
             </div>
             
             <div className="hidden md:flex gap-6">
@@ -43,7 +43,11 @@ export default function Index() {
               ))}
             </div>
 
-            <Button size="sm" className="bg-gradient-to-r from-primary to-accent hover:opacity-90">
+            <Button 
+              size="sm" 
+              className="bg-gradient-to-r from-primary to-accent hover:opacity-90"
+              onClick={() => window.open('https://drive.google.com/file/d/1C_Y_ZdS3SICR4V_1bK6qQNl-VHOn6gZg/view?usp=sharing', '_blank')}
+            >
               Играть
             </Button>
           </div>
@@ -54,20 +58,24 @@ export default function Index() {
         <div className="absolute inset-0 z-0 opacity-20">
           <img 
             src="https://cdn.poehali.dev/projects/6f2d4e35-d2b3-44ef-b18e-c29e54e221db/files/37b00901-c230-4eda-b61c-719b46ea0099.jpg" 
-            alt="Amazing RP background"
+            alt="PREMIUM BONUS background"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background via-background/50 to-background"></div>
         </div>
         <div className="container mx-auto text-center relative z-10">
           <h1 className="text-5xl md:text-7xl font-heading font-bold mb-6 animate-fade-in bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-            Amazing RP
+            PREMIUM BONUS
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-slide-up">
             Погрузись в мир ролевых игр. Создай свою историю!
           </p>
           <div className="flex gap-4 justify-center flex-wrap animate-slide-up">
-            <Button size="lg" className="bg-gradient-to-r from-primary to-accent hover:opacity-90">
+            <Button 
+              size="lg" 
+              className="bg-gradient-to-r from-primary to-accent hover:opacity-90"
+              onClick={() => window.open('https://drive.google.com/file/d/1C_Y_ZdS3SICR4V_1bK6qQNl-VHOn6gZg/view?usp=sharing', '_blank')}
+            >
               <Icon name="Play" size={20} className="mr-2" />
               Начать играть
             </Button>
